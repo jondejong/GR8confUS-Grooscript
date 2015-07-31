@@ -1,0 +1,25 @@
+{
+  "name": "gr8-grooscript",
+  "version": "1.0.0",
+  "description": "Things with things",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jondejong/gr8-grooscript.git"
+  },
+  "keywords": [
+    "Grooscript"
+  ],
+  "author": "Jon DeJong",
+  "license": "Free Just Take It",
+  "bugs": {
+    "url": "https://github.com/jondejong/gr8-grooscript/issues"
+  },
+  "homepage": "https://github.com/jondejong/gr8-grooscript",
+  "dependencies": {
+    "grooscript": "^1.1.2"
+  }
+}
