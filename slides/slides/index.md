@@ -4,4 +4,4 @@
 
 Jon DeJong
 
-[github.com/jondejong/gr8-grooscript](https://github.com/jondejong/gr8-grooscript)
+[github.com/jondejong/GR8confUS-Grooscript](https://github.com/jondejong/GR8confUS-Grooscriptt)
