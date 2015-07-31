@@ -22,11 +22,11 @@ html {
             }
         }
         div (class: 'row'){
-            div (class: 'col-xs-8', id: 'thinglist') {
+            div (class: 'col-md-8', id: 'thinglist') {
 
             }
 
-            div(class: 'col-xs-4') {
+            div(class: 'col-md-4') {
                 h4 {
                     yield 'Add Thing'
                 }

@@ -5,7 +5,7 @@ import org.grooscript.asts.GsNative
 class Thing {
 
     static mongoose
-    static mongoThing
+    static model
 
     @GsNative
     static initMongoose() {/*
@@ -16,17 +16,17 @@ class Thing {
               description: String
             });
 
-        mongoThing = mongoose.model('thing', thingSchema);
+        model = mongoose.model('thing', thingSchema);
     */}
 
     @GsNative
     static newMongoThing () {/*
-        return new mongoThing()
+        return new model()
     */}
 
     @GsNative
     static getThingModel () {/*
-        return mongoThing;
+        return model;
     */}
 
 

@@ -18,14 +18,6 @@ def nodeServer
 
 Thing.initMongoose()
 def model = Thing.thingModel
-model.find({err, list->
-    if(list.size() < 1) {
-        def thing = Thing.newMongoThing()
-        thing.name = "jon"
-        thing.description = "is in mongo"
-        thing.save()
-    }
-})
 
 nodeServer = server {
     get('/') {
@@ -41,7 +33,6 @@ nodeServer = server {
         thing.name = data.name
         thing.description = data.description
         thing.save({err, saved->
-            console.log "Thing saved", nodeServer
             nodeServer.broadCast('thingadded', [_id: saved._id, name: data.name, description: data.description])
         })
     }
